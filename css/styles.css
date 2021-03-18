@@ -175,6 +175,12 @@ body {
 
 /* End services section */
 
+/* Sponsors section */
+.sponsors-section {
+    background: #268bcc;
+    padding: 30px;
+}
+
 /* Results section */
 .results {
     background: #ffffff;
@@ -282,3 +288,52 @@ a,
     background-color: #fff;
     color: #268bcc;
 }
+
+/* Vorstand section */
+/* team card */
+.team-section-header {
+    background-color: #268bcc;
+    padding: 30px;
+}
+.team-section-wrapper {
+    margin-top: 30px;
+}
+.team-section {
+    margin-top: 100px;
+}
+.team-card-img {
+    width: 100%;
+}
+/* .team-content {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    bottom: 99px;
+    left: 11px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    padding-top: 15px;
+    background-color: #303030;
+} 
+This can be used to add a number to the team member card. Not needed for this site*/
+.card {
+    background-color: #ffffff;
+    border: none;
+}
+.card-text {
+    line-height: 1;
+}
+
+/* Verband section */
+.verband {
+    margin-top: 100px;
+}
+
+/* Ziele section */
+.goals-text {
+    margin-top: 100px;
+}
+
+/* End ziele section */
