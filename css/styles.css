@@ -20,12 +20,17 @@ h3 {
     font-weight: 600;
     size: 3.5rem;
 }
+h4 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #0071BB;
+    font-weight: 600;
+    size: 3.5rem;
+}
 
 body {
     font-family: "Nunito Sans", sans-serif;
     color: #268bcc;
-    font-size: 16px;
-    text-align: center;
+    font-size: 1rem;
     line-height: 1.8;
 }
 
@@ -72,6 +77,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 5px;
+    color: #0071BB !important;
 }
 
 .navbar {
@@ -82,6 +88,13 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-weight: light;
     font-size: 1.5rem;
+    color: #0071BB !important;
+}
+
+.dropdown-item {
+    background-color: #fff;
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 /* End navbar */
@@ -175,53 +188,7 @@ body {
 
 /* End services section */
 
-/* Sponsors section */
-.sponsors-section {
-    background: #268bcc;
-    padding: 30px;
-}
 
-/* Results section */
-.results {
-    background: #ffffff;
-    padding-top: 92px;
-    padding-bottom: 100px;
-}
-
-.results_row {
-    margin-top: 5px;
-}
-
-.results_title {
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
-
-.results_subtitle {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-top: 4px;
-}
-
-.col-centered {
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 30px;
-}
-
-.border-line {
-    border-right: 1px solid #268bcc;
-}
-
-hr {
-    width: 30%;
-    margin: 0 auto;
-    border: 5px #268bcc;
-}
 
 /* Footer section */
 .copyright_part {
@@ -229,11 +196,6 @@ hr {
     padding: 15px;
 }
 
-a,
-.footer-social {
-    font-size: 2.0rem;
-    color: #fff;
-}
 
 .footer-text {
     font-size: 1rem;
