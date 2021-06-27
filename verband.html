@@ -31,7 +31,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #268bcc">
+  <nav class="navbar fixed-top navbar-expand-lg bg-white navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Zürcher Verband AFL</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -40,11 +40,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aktuelles.html">Aktuelles</a>
+          <a class="nav-link" href="aktuelles.html">Aktuelles</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="verband.html">Verband</a>
@@ -66,42 +62,81 @@
   <!-- End Navbar -->
 
   <!-- Verband section -->
-  <section class="verband">
-    <div class="verband-text">
-      <p>Der Zürcher Australian Rules Football Verband (kurz ZAFL) besteht aus den zwei Zürcher
-        Australian Rules Football Vereinen Zurich Giants AFC and Winterthur Lions AFC und
-        wurde im Januar 2021 gegründet. 
-        Der Verband ist Teil der Swiss Australian Football League (AFL Switzerland).
-        Der ZAFL ist ausserdem Mitglied im Zürcher Kantonalverband für Sport (ZKS), welcher den
-        ZRV durch Gelder aus dem Swisslos-Sportfonds Kanton Zürich unterstützt.</p>
-    </div>
-  </section>
-  <!-- Footer section -->
-
-  <footer class="copyright_part">
-    <div class="container">
-      <div class="row align-items-center">
-        <p class="footer-text">
-          Copyright © 2021 All rights reserved </p>
-        <div class="footer-social">
-          <a href="https://www.facebook.com/zurichgaintsafc/posts"><i class="fab fa-facebook-square"></i></a>
-          <a href="https://www.instagram.com/zurichgiantsafc/?hl=en"><i class="fab fa-instagram-square"></i></a>
-        </div>
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h3 class="display-4 fw-normal">Committee</h3>
+      </div>
+      <div class="verband-text">
+        <p>Der Zürcher Australian Rules Football Verband (kurz ZAFL) besteht aus den zwei Zürcher
+          Australian Rules Football Vereinen Zurich Giants AFC and Winterthur Lions AFC und
+          wurde im Januar 2021 gegründet. 
+          Der Verband ist Teil der Swiss Australian Football League (AFL Switzerland).
+          Der ZAFL ist ausserdem Mitglied im Zürcher Kantonalverband für Sport (ZKS), welcher den
+          ZRV durch Gelder aus dem Swisslos-Sportfonds Kanton Zürich unterstützt.</p>
       </div>
     </div>
-  </footer>
+  </div>
 
-  <!-- End footer section -->
+      <!-- Footer section -->
 
-  <!-- Optional JavaScript; choose one of the two! -->
+      <div class="container py-3">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-6 col-md">
+              <h4>More about the clubs</h4>
+              <u1 class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none"
+                    href="https://winterthurlionsafc.ch/">Winterthur Lions AFC</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://zurichgiantsafc.ch/">Zurich
+                    Giants AFC</a></li>
+              </u1>
+            </div>
+            <div class="col-6 col-md">
+              <h4>Find us on social media</h4>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none"
+                    href="https://www.instagram.com/zurichgiantsafc/?hl=en">Zurich Giants Instagram</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none"
+                    href="https://www.facebook.com/zurichgiantsafc">Zurich Giants Facebook</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none"
+                    href="https://www.instagram.com/winterthurlionsafc/?hl=en">Winterthur Lions Instagram</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none"
+                    href="https://www.facebook.com/winterthurlionsafc/">Winterthur Lions Facebook</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h4>More about AFL</h4>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://afleurope.org/">AFL
+                    Europe</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://aflswitzerland.ch/">AFL
+                    Switzerland</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.igacr.ch/">IGACR</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h4>About the Verband</h4>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="covid.html">COVID-19
+                    restrictions</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Code of Conduct</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- End footer section -->
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
+      <!-- Optional JavaScript; choose one of the two! -->
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+      </script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
